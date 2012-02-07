@@ -86,8 +86,8 @@ public class Publisher extends Recorder {
       PrintStream logger = listener.getLogger();
       logger.println("TestNG Reports Processing: START");
       if (build.getResult().isWorseThan(Result.UNSTABLE)) {
-         logger.println("Not looking for any TestNG results.");
-         return true;
+         logger.println("I was going to try not looking for any TestNG results...");
+         //return true;
       }
 
 
